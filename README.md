@@ -12,8 +12,8 @@ A full-stack MERN project for managing the college placement process, including:
 
 ## 🚀 Live Demo
 
-* Frontend (Netlify): [Placement Management System Frontend](https://placementmanagementsystem-project.netlify.app/)
-* Backend (Render): [Placement Management System API](https://placement-management-system-9vxu.onrender.com/)
+* Frontend (Netlify): 
+* Backend (Render): 
 
 ---
 
@@ -92,70 +92,3 @@ You can use the following demo accounts to explore the system:
  └── README.md
 ```
 
----
-
-## 🛠️ Getting Started
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/Subramaniyajothi6/Placement-Management-System.git
-cd Placement-Management-System
-```
-
-### 2️⃣ Setup Backend
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-### 3️⃣ Setup Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### 4️⃣ Environment Variables
-
-Create a `.env` file in backend:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret
-EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_email_password
-
-# Cloudinary
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-# Jitsi (optional if you use custom domain/config)
-JITSI_DOMAIN=meet.jit.si
-```
-
----
-
-## 📊 Reports & Analytics
-
-* Track number of participants, interviews, offers, and placements
-* Visualize placement statistics with charts
-* Export results to PDF for official records
-
----
-
-## ⚠️ Note
-
-* This project is for educational/demo purposes only
-* Do not use real credentials when testing
-* Student account credentials are kept private
-
----
-
-## 📜 License
-
-This project is open-source under the MIT License.

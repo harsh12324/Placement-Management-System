@@ -10,7 +10,7 @@ mongoose.connect(MONGODB_URI)
         
         console.log(`Connecting to Server ${PORT}`)
 
-        app.listen(PORT,()=>{console.log(`Server running on the port http://localhost:${PORT}`)})
+        app.listen(PORT, '0.0.0.0', ()=>{console.log(`Server running on the port http://localhost:${PORT}`)})
     })
     .catch(error=>console.log(error))
 
