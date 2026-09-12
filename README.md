@@ -91,4 +91,3 @@ You can use the following demo accounts to explore the system:
  ├── frontend  # React.js with TailwindCSS + Redux (slices, store, state management)
  └── README.md
 ```
-
